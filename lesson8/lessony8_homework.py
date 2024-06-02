@@ -24,7 +24,7 @@ try:
         bmi = cal_bmi(height, weight)
         status = get_status(bmi)
 
-        print(f"\n{name} - ,\n身高: {height}cm,\n體重: {weight}Kg")
+        print(f"\n{name}\n身高: {height}cm\n體重: {weight}Kg")
         print(f"BMI: {round(bmi, 2)}  你屬於{status}範圍")
 except Exception as e:
 	    print(f"EXCEPTION - {type(e)}")
