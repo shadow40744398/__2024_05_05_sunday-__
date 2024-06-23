@@ -2,3 +2,5 @@ PyInputPlus
 Pydantic
 requests
 matplotlib
+numpy
+pandas
