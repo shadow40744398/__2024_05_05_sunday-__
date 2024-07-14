@@ -1,8 +1,8 @@
-# save this as app.py
 from flask import Flask,request, abort
 from dotenv import load_dotenv
 from linebot import LineBotApi, WebhookHandler
 from linebot.exceptions import InvalidSignatureError
+import google.generativeai as genai
 from linebot.models import *
 import os
 load_dotenv()
